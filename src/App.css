@@ -1,0 +1,34 @@
+/* App.css */
+.country-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 400px;
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.country-name {
+  font-weight: bold;
+}
+
+.capital {
+  font-style: italic;
+}
+
+.country-flag {
+  max-width: 50px;
+}
